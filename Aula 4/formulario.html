@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários em HTML 5</title>
+    <style>
+       form{
+        display: flex;
+       }
+    </style>
+</head>
+<body>
+    
+    <h1>
+        Formulário
+    </h1>
+
+    <form method="get">
+        <label for="User">Nome:</label>
+        <input id="User" type="text" placeholder="Informe seu nome"><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Informe seu email" required><br>
+        <label>Data:</label>
+        <input type="date" name="DATA" id=""><br>
+        <label for="month">Mês:</label>
+        <input type="month" name="month" id="month"><br>
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" placeholder="Quantos anos vc tem amigão ????????" id="idade"><br>
+        <label for="regiao">Região:</label><br>
+        <input type="radio" name="regiao" id="regiao" value="Sul">Sul<br>
+        <input type="radio" name="regiao" id="regiao" value="Sudeste">Sudeste<br>
+        <input type="radio" name="regiao" id="regiao" value="Centro-oeste">Centro-oeste<br>
+        <input type="radio" name="regiao" id="regiao" value="Norte">Norte<br>
+        <input type="radio" name="regiao" id="regiao" value="Nordeste">Nordeste<br>
+        <label>UF:</label>
+        <select 
+                name="estados" 
+                id="estados">
+            <option value=""></option>
+            <option value="RS">Rio grande do Sul</option>
+            <option value="SC">Santa cataralha</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="SP">São Paulo</option>
+        </select><br>
+
+        <label for="">Placa</label>
+        <input type="text" name="placa" id="placa" required pattern="[A-Z]{3}[0-9]{4}" placeholder="AAA-0000">
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+</body>
+</html>

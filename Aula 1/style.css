@@ -1,0 +1,18 @@
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.tanj1{
+    margin-left: 100px;
+
+    transform: translateX() ease-in-out;
+}
+
+.tanj2{
+    margin-left: 500px;
+}
+
+

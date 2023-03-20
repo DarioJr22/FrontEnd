@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P5</title>
+</head>
+<body>
+    <div style="padding: 10px; background-color: azure; border: 1px black; border-radius: 3px;">
+    <form method="get">
+    <table>
+        <tr>
+            <td>
+                <label for="nomeCandidato">Nome do candidato:</label>
+                <input id="nomeCandidato" name="nomeCandidato" type="text">
+            </tr>
+            </td>
+        <tr>
+            <td>
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="">
+                    <option value=""></option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Masculino">Feminino</option>
+                    <option value="Masculino">Prefiro não dizer</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Renda">Renda Média:</label>
+                <select name="Renda" id="renda">
+                    <option value=""></option>
+                    <option value="muitoBaixa">Menos de R$ 1000</option>
+                    <option value="baixa">Mais de R$ 1000 Menos de R$ 2000</option>
+                    <option value="media">Mais de R$ 2000 Menos de R$ 3000</option>
+                    <option value="mediaAlta">Mais de R$ 4000 Menos de R$ 5000</option>
+                    <option value="alta">Acima de 6000</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="time">Time:</label>
+                <select name="time" id="time">
+                    <option value=""></option>
+                    <option value="Desenvolvimento">Desenvolvimento</option>
+                    <option value="UI/UX">UI/UX</option>
+                    <option value="Tech Recruiter/RH">Tech Recruiter/RH</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Cartão de crédito</label>
+                <input 
+                id="Cartao" 
+                name="cartao"
+                required 
+                type="text" 
+                placeholder="0000-0000-0000-0000" 
+                pattern="[0-9]{4}[-]?[0-9]{4}[-]?[0-9]{4}[-][0-9]{4}?">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <input type="submit" value="enviar"> 
+            </td>
+        </tr>
+    </table>
+
+</form>
+</div>
+</body>
+</html>

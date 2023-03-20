@@ -1,0 +1,23 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.text_bold{
+    font-weight: bold;
+}
+
+.texto_Maiusculo{
+    text-transform: uppercase;
+}
+
+.texto_espacado{
+    padding: 10px;
+}
