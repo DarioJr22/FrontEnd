@@ -1,0 +1,14 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    position: fixed;
+    top: 50%;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
