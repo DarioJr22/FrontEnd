@@ -9,7 +9,7 @@
  function somarNumeros(){
     let resultadoNumb =  document.querySelector('.resultadoNumer')
     let inputNumbers =  document.querySelectorAll('.somaNumber')
-    resultadoNumb.value = eval( inputNumbers[0].value + inputNumbers[1].value)
+    resultadoNumb.value = eval( `${inputNumbers[0].value} + ${inputNumbers[1].value}`)
  }
 
  function parOuImpar(params) {
