@@ -17,11 +17,12 @@
    
    //Calculo notas
    let resultado = eval(`${notas[0].value} + ${notas[1].value}`)/ 2 
-   if (resultado >= 7) {
+   console.log(resultado);
+   if (resultado >= 7 && resultado < 10) {
       stringResultado = "Aprovado"
    } else if ( resultado < 7){
       stringResultado = "Reprovado"
-   } else {
+   } else if(resultado >= 10) {
       stringResultado = "Aprovado com estrelinha !"
    }
    
