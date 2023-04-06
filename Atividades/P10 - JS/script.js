@@ -1,21 +1,21 @@
 string = 'A,B,C,D'
 
-string.replace(',',' ')
+
 
 console.log('Replace',string.replace(',','--------->'));
 
-string.toUpperCase()
 
-console.log('UpperCase',string);
 
-string.toLowerCase()
+console.log('UpperCase',string.toUpperCase());
 
-console.log('LowerCase',string);
 
-string.concat(' Is good')
 
-console.log(string);
+console.log('LowerCase',string.toLowerCase());
 
-string.slice(3,6)
 
-console.log(string);
+
+console.log(string.concat(' Is good'));
+
+
+
+console.log(string.slice(3,6));
