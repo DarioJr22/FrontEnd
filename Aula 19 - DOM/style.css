@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.box{
+    width: 13rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(201, 201, 201);
+}
+.box:hover,:focus{
+    animation: crazy 2s ease-in infinite alternate ;
+}
+
+@keyframes crazy {
+    0%{
+        transform: translateX(0px) rotate(0deg);
+    
+    }
+    100%{
+        transform: translateX(200px) rotate(400deg) scale(1.5);
+    }
+}
+
+
+
+
